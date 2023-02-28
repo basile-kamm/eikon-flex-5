@@ -50,6 +50,16 @@
 .exercice-all-in-2 .container {
   display: flex;
   flex-flow: row wrap;
-  align-content: baseline;
-  justify-content: center;
+  align-content: center;
+  justify-content: baseline;
+}
+
+.exercice-all-in-2 .element-blue {
+  align-self: center;
+  flex-grow: 1;
+}
+
+.exercice-all-in-2 .element-pink {
+  order: 1;
+  flex-grow: 1;
 }
