@@ -6,8 +6,20 @@
 }
 
 /* 2. exercice-baseline-2 */
+.exercice-baseline-2 .container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: baseline;
+}
+
 
 /* 3. exercice-baseline-3 */
+.exercice-baseline-3 .container {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: center;
+}
 
 /* 4. exercice-flow-1 */
 
