@@ -8,13 +8,14 @@
 /* 2. exercice-baseline-2 */
 .exercice-baseline-2 .container {
   display: flex;
-  flex-flow: row-reverse ;
+  flex-flow: row-reverse wrap-reverse ;
   align-items: baseline;
   justify-content: center;
 }
 
 .exercice-baseline-2 .element {
-  max-width: 50%;
+  width: 50%;
+  box-sizing: border-box;
 }
 
 /* 3. exercice-baseline-3 */
